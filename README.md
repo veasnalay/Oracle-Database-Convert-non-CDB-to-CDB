@@ -1,10 +1,17 @@
 # Oracle-Database-Convert-non-CDB-to-CDB
 
-For user that are using non-cdb Database release from Version 19C oracle recommend to use with pluggable database.
+For customers currently running a non-CDB database on Oracle Database 19c, Oracle recommends migrating to the Multitenant architecture by converting the database into a Pluggable Database (PDB) within a Container Database (CDB).
 
-** From 21C -> on ward Oracle force to use Container Database (CDB).
+Important:
 
-=> use this procedure to convert your Database.
+Oracle Database 19c is the last long-term release that supports non-CDB databases.
+Starting with Oracle Database 21c and later releases, non-CDB architecture is no longer supported, and all databases must be deployed as Pluggable Databases (PDBs) inside a Container Database (CDB). Oracle Database 21c
+
+Migrating from a non-CDB to a PDB provides several benefits, including simplified database consolidation, easier patching and upgrades, improved resource management, and alignment with Oracle's strategic database architecture.
+
+Therefore, Oracle recommends planning and performing a non-CDB to PDB conversion before upgrading to Oracle Database 21c or later releases.
+
+The following procedure can be used to convert your existing non-CDB database into a PDB.
 
 I.Environment
 -----------------------------------------------------------------
