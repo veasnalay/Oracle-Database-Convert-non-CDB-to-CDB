@@ -1,5 +1,10 @@
 # Oracle-Database-Convert-non-CDB-to-CDB
-Database release from Version 19C oracle recommend to use with pluggable database.
+
+For user that are using non-cdb Database release from Version 19C oracle recommend to use with pluggable database.
+
+** From 21C -> on ward Oracle force to use Container Database (CDB).
+
+=> use this procedure to convert your Database.
 
 I.Environment
 -----------------------------------------------------------------
