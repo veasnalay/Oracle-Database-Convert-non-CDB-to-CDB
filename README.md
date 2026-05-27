@@ -159,7 +159,7 @@ II. On Sorce Database instance
 		SQL>
 
 
-II.On Target database instance <-----
+II. On Target database instance
 
 	#1. Connect to Target DB instance
 
