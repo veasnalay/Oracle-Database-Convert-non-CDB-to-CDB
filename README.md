@@ -437,14 +437,14 @@ II. On Target database instance
 		            PDB                 requires noncdb_to_pdb.sql be run.
 
 
-SQL> alter session set container=DESTDB;
-SQL> select * from CONVERT_USER.position;
-
-NAME     ROLE
-------	 ----------
-Jack     DBA <------
-Jack01   DBA <------
-Jack02   DBA <------
-Jack03   DBA <------
-
-SQL>
+	SQL> alter session set container=DESTDB;
+	SQL> select * from CONVERT_USER.position;
+	
+	NAME     ROLE
+	------	 ----------
+	Jack     DBA <------
+	Jack01   DBA <------
+	Jack02   DBA <------
+	Jack03   DBA <------
+	
+	SQL>
