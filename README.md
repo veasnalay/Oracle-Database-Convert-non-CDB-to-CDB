@@ -25,7 +25,7 @@ II. On Sorce Database instance
 			
 			SQL>
 
-		-optional
+		** optional : Create sample Table and Test insert some record
 
 		SQL> create user convert_user identified by welcome1 default tablespace users temporary tablespace temp;
 		SQL> grant connect,resource to convert_user;
